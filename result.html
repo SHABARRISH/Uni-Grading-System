@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grade Results - Velammal College</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Velammal College of Engineering and Technology</h1>
+            <h2>CSE Department</h2>
+        </div>
+    </header>
+
+    <main>
+        <h3 class="title">Grade Results</h3>
+        <div class="result-container" id="result"></div>
+
+        <div class="actions">
+            <button id="downloadPdf">Download Result as PDF</button>
+            <button id="exitBtn">Exit</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Velammal College of Engineering and Technology, Madurai-09 | Department of Computer Science and Engineering</p>
+    </footer>
+
+    <!-- jsPDF Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="result.js"></script>
+</body>
+</html>

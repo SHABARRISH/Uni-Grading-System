@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Velammal College - Grade Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Velammal College of Engineering and Technology</h1>
+            <h2>CSE Department</h2>
+        </div>
+    </header>
+
+    <main>
+        <h3 class="title">Grade Calculator</h3>
+        <div class="form-container">
+            <form id="gradeForm" action="result.html" method="GET" onsubmit="submitForm(event)">
+                <div id="subjectList">
+                    <div class="subject-entry">
+                        <label for="subjectName">Subject Name:</label>
+                        <input type="text" name="subjectName" placeholder="Enter subject name" required>
+
+                        <label for="marks">Marks:</label>
+                        <input type="number" name="marks" placeholder="Enter your marks" required>
+                    </div>
+                </div>
+
+                <button type="button" id="addSubject">Add Another Subject</button>
+                <button type="submit">Calculate Grades</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Velammal College of Engineering and Technology, Madurai-09 | Department of Computer Science and Engineering</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
